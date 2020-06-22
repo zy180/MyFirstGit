@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                println "Build" 
+                println "BuildCSHT" 
+				println "NewName"
             }
         }
         stage('Test') { 
